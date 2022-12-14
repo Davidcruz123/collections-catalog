@@ -1,0 +1,32 @@
+
+
+.input-container {
+    padding: 4% 0;
+    width: 100%;
+    min-width: 250px;
+    background-color:rgb(232, 229, 229);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.custom-input svg {
+    height: 100%;
+    margin: 0% 5%;
+
+}
+.custom-input label {
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.custom-input .input-container input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+}
+
+.custom-input .input-container input:focus {
+    outline: none;
+    border: none;
+}
